@@ -13,13 +13,12 @@ class ConferenceController extends AbstractController
      */
     public function index()
     {
-        return new Response(<<<EOF      
+        return new Response(      
             <html>
                 <body>
                     <img src="/images/under-construction.gif" />
                 </body>
             </html>
-            EOF
         );
     }
 }
