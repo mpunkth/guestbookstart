@@ -17,7 +17,7 @@ class ConferenceController extends AbstractController
         // $htmlResponseTest = "<html><body><img src=\"/images/under-construction.gif\" /></body></html>";
 
         return new Response(
-            '<html><body>Lucky</body></html>'
+            '<html><body><img src="/images/under-construction.gif" /></body></html>'
         );
     }
 }
