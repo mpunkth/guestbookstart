@@ -11,14 +11,11 @@ class ConferenceController extends AbstractController
     /**
      * @Route("/", name="homepage")
      */
+
     public function index()
     {
-        return new Response(
-            <html>
-                <body>
-                    <img src="/images/under-construction.gif" />
-                </body>
-            </html>
-        );
+        $htmlResponseTest = "<html><body><img src=\"/images/under-construction.gif\" /></body></html>";
+
+        return new Response($htmlResponseTest);
     }
 }
