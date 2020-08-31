@@ -14,8 +14,10 @@ class ConferenceController extends AbstractController
 
     public function index()
     {
-        $htmlResponseTest = "<html><body><img src=\"/images/under-construction.gif\" /></body></html>";
+        // $htmlResponseTest = "<html><body><img src=\"/images/under-construction.gif\" /></body></html>";
 
-        return new Response($htmlResponseTest);
+        return new Response(
+            '<html><body>Lucky</body></html>'
+        );
     }
 }
